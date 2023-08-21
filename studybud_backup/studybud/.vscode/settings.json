@@ -1,0 +1,27 @@
+{
+  // "[python]": {
+  //   "editor.defaultFormatter": "ms-python.black-formatter"
+  // },
+  // "python.formatting.provider": "none",
+  // "[html][django-html][handlebars][hbs][mustache][jinja][jinja-html][nj][njk][nunjucks][twig]": {
+  //   "editor.defaultFormatter": "monosans.djlint"
+  "files.associations": {
+    "**/templates/*.html": "django-html",
+    "**/*.html": "html"
+  },
+  "beautify.language": {
+    "html": ["htm", "html", "django-html"]
+  },
+  "[django-html]": {
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none"
+}
